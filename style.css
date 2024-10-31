@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  margin: 0;
+}
+
+#grid {
+  flex-direction: column;
+}
+
+.cell {
+  border: 1px solid black;
+  padding: 5px;
+}
