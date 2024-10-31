@@ -17,6 +17,12 @@ function darken(element) {
 gridCells = document.querySelectorAll(".cell")
 gridCells.forEach((cell) => {
   cell.addEventListener("mouseover", function (e) {
-    e.target.classList.toggle("dark");
+    if(!(e.target.classList.contains("dark"))) {
+      e.target.classList.toggle("dark");
+      e.target.style.opacity = 0.1;
+    } else {
+      opacity = parseFloat(e.target.style.opacity) + 0.1;
+      e.target.style.opacity =  opacity;
+    }
   });
 });
