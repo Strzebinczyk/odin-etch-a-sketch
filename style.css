@@ -1,12 +1,9 @@
 div {
   margin: 0;
-
-}
-body {
-  display: flex;
   align-items: stretch;
-  
+  display: flex;
 }
+
 #grid {
   display: flex;
   flex-direction: column;
