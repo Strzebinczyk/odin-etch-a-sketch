@@ -5,6 +5,7 @@ div {
 body {
   display: flex;
   align-items: stretch;
+  
 }
 #grid {
   display: flex;
@@ -13,7 +14,6 @@ body {
   border: 3px solid black;
   flex: auto;
   max-width: 800px;
-  max-height: 800px;
   min-height: 800px;
 }
 
